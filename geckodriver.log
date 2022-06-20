@@ -1,0 +1,18 @@
+1648112205148	geckodriver	INFO	Listening on 127.0.0.1:50417
+1648113169190	geckodriver	INFO	Listening on 127.0.0.1:50791
+1648113539368	geckodriver	INFO	Listening on 127.0.0.1:50908
+1648113539888	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50909" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3bh_kkvx49vf2j355hgbm9n80000gn/T/rust_mozprofilerzeaSM"
+1648113540667	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/0k/3bh_kkvx49vf2j355hgbm9n80000gn/T/rust_mozprofilerzeaSM/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:50909/devtools/browser/ee8c86fd-43f1-417d-849d-b99805f9753b
+1648113542592	Marionette	INFO	Listening on port 50916
+1648113542633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.2.27:9000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.0.2.27:9000"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1648113592672	Marionette	INFO	Stopped listening on port 50916
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
